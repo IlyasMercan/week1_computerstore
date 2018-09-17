@@ -1,5 +1,6 @@
 package be.pxl.computerstore.data;
 
+import be.pxl.computerstore.hardware.*;
 import be.pxl.computerstore.util.Dimension;
 
 public class Warehouse {
@@ -30,8 +31,8 @@ public class Warehouse {
         Processor processor1 = new Processor("Intel", "Core i9 79000X", 813.14, 3.7);
         Processor processor2 = new Processor("AMD", "Ryzen 7 1800X", 400.27, 2.4);
 
-        Keyboard azerty = new Keyboard("Trust", "eLight LED Illuminated", 8.14, KeyboardLayout.AZERTY);
-        Keyboard azerty2 = new Keyboard("Kensington", "ValuKeyboard", 12.70, KeyboardLayout.AZERTY);
+        Keyboard azerty = new Keyboard("Trust", "eLight LED Illuminated", 8.14, KeyboardLayout.AZERTY); //AANGEPAST: hier stond Keyboard.KeyboardLayout.AZERTY
+        Keyboard azerty2 = new Keyboard("Kensington", "ValuKeyboard", 12.70, KeyboardLayout.AZERTY); //AANGEPAST: hier stond Keyboard.KeyboardLayout.AZERTY
         Keyboard qwerty = new Keyboard("Logitech", "K120", 13.54, KeyboardLayout.QWERTY);
 
         Mouse mouse1 = new Mouse("HP", "X1000", 7.63);
